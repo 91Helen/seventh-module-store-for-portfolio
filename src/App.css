@@ -249,37 +249,6 @@ button {
   left: 0;
 }
 
-.clothes-header {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.clothes-logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.clothes-footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 20px;
-  background: #f4eddd;
-}
-
-.clothes-footer {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #f4eddd;
-  text-align: center;
-  border-top: 1px solid #ddd;
-}
-
-.clothes-logo {
-  width: 80px;
-  height: auto;
-  margin-bottom: 10px;
-}
 
 .about-banner {
   width: 100%;
@@ -302,6 +271,7 @@ button {
   margin-top: 20px;
 }
 
+
 .clothes-footer {
   margin-top: 40px;
   padding: 20px;
@@ -316,8 +286,101 @@ button {
   margin-bottom: 10px;
 }
 
+/* The title of the store */
+.store-header{
+  display: flex;
+  justify-content: center;
+}
 
-/* 📱 Адаптивность */
+.store-header {
+  display: flex;
+  flex-direction: column;      
+  justify-content: center;    
+  align-items: center;        
+  background-color: #f4eddd;   
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 600px;           
+  text-align: center;
+}
+
+.store-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.store-subtitle {
+  font-size: 20px;
+  color: #555;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+/* Contact us */
+
+.contact-us {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.burger {
+  display: none;
+}
+
+
+@media (max-width: 1024px) {
+  .product-card {
+    flex: 1 1 calc(33.333% - 20px); 
+  }
+   .logo img {
+    height: 40px;
+  }
+} 
+
+@media (min-width: 769px) {
+  .burger {
+    display: none; 
+  }
+}
+
+
 @media (max-width: 768px) {
   .about-page {
     margin: 20px;
@@ -335,6 +398,55 @@ button {
   .about-page p,
   .about-page li {
     font-size: 16px;
+  }
+  
+  .about-product {
+    padding: 15px;
+  }
+
+  .product-details h2 {
+    font-size: 22px;
+  }
+
+  .product-details .description {
+    font-size: 16px;
+  }
+
+  .product-details h3 {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #cfd8dc;
+    width: 200px;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+    .product-card {
+    flex: 1 1 calc(50% - 20px); 
+  }
+ .logo img {
+    height: 30px;
   }
 }
 
@@ -356,30 +468,7 @@ button {
   .about-page li {
     font-size: 15px;
   }
-}
-
-
-/* 📱 Адаптивность */
-@media (max-width: 768px) {
-  .about-product {
-    padding: 15px;
-  }
-
-  .product-details h2 {
-    font-size: 22px;
-  }
-
-  .product-details .description {
-    font-size: 16px;
-  }
-
-  .product-details h3 {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .about-product {
+   .about-product {
     margin: 15px;
     padding: 10px;
   }
@@ -395,4 +484,16 @@ button {
   .product-details h3 {
     font-size: 18px;
   }
+   .product-card {
+    flex: 1 1 100%; 
+  }
+  .product-card img {
+    height: 300px; 
+  }
+   .logo img {
+    height: 25px;
+  }
 }
+
+
+
