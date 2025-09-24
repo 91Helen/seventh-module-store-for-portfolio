@@ -11,6 +11,7 @@ This app demonstrates skills in **React hooks, components, local state managemen
 - ⚡ Dynamic list updates without page reload  
 - 📱 Responsive design — works on desktop, tablet, and mobile  
 - 🎨 Clean and modern interface  
+- 🔔 Integrated **SweetAlert2** pop-ups for stylish alerts and user interactions 
 
 ---
 
@@ -44,13 +45,13 @@ npm start
  ![Home page](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/Online%20store%20main%20view.png?raw=true)
 
 ### 👗 Product Filtering
-![Filtering Example](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/product%20filtering.png?raw=true)
+![Filtering Example](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/filtering.png?raw=true)
 
 
 ### 📱 Mobile View
 ![Mobile view](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/Online%20Store%20mobile%20view.png?raw=true)
 
-Category Filtering
+
 
 ## 👩‍💻 Author
 
