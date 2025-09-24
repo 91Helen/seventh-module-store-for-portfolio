@@ -40,6 +40,9 @@ npm start
 
 ## 📸 Screenshots
 Home Page
+Mobile view
+
+![image alt](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/Online%20Store%20mobile%20view.png?raw=true)
 
 Category Filtering
 
