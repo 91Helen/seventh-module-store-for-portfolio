@@ -39,10 +39,16 @@ npm start
 ```
 
 ## 📸 Screenshots
-Home Page
-Mobile view
 
-![image alt](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/Online%20Store%20mobile%20view.png?raw=true)
+### 🏠 Home Page
+ ![Home page](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/Online%20store%20main%20view.png?raw=true)
+
+### 👗 Product Filtering
+![Filtering Example](./screenshots/filter.png)
+
+
+### 📱 Mobile View
+![Mobile view](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/Online%20Store%20mobile%20view.png?raw=true)
 
 Category Filtering
 
