@@ -44,7 +44,7 @@ npm start
  ![Home page](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/Online%20store%20main%20view.png?raw=true)
 
 ### 👗 Product Filtering
-![Filtering Example](./screenshots/filter.png)
+![Filtering Example](https://github.com/91Helen/seventh-module-store-for-portfolio/blob/main/product%20filtering.png?raw=true)
 
 
 ### 📱 Mobile View
