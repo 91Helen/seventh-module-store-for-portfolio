@@ -151,7 +151,7 @@ export const data = [
   },
 
     {
-    id: 12,
+    id: 16,
     name: "Long dress",
     searchTerm: "dress",
     title: "long-dress",

@@ -18,7 +18,7 @@ function Home() {
         <p className='store-subtitle'>Your Online Fashion Store</p>
       </div>
 
-      <Buttons filteredClothes={chosenClothes}/>
+      <Buttons filteredClothes={chosenClothes} setDress={setDress}/>
       <Clothes anyClothes={dress}/>
     </div>
   );

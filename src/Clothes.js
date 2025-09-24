@@ -28,7 +28,7 @@ function Clothes({ anyClothes }) {
       </div>
       <footer className="clothes-footer">
   <img src={logo} alt="Logo" className="clothes-logo" />
-  <p>© 2025 MyShop. All rights reserved.</p>
+  <p>© 2025 FEEL & WEAR. Online Fashion Store. All rights reserved.</p>
 </footer>
     </div>
   );

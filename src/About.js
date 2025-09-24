@@ -14,7 +14,7 @@ function About() {
           />
         </div>
 
-        <h1>About Our Shop</h1>
+        <h1>FEEL & WEAR</h1>
         <p>
           Welcome to <strong>Fashion Store</strong> — your place for stylish and comfortable clothing.  
           We believe that fashion should be accessible, high-quality, and timeless.
@@ -38,7 +38,7 @@ function About() {
         </p>
 
         <div className="btn-center">
-          <button className="change" onClick={() => navigate(-1)}>Go back</button>
+          <button className="change" onClick={() => navigate("/")}>Go back</button>
         </div>
       </div>
 
